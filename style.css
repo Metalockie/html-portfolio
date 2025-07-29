@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: larger;
+}
+
+h2 {
+    color: rgb(128, 185, 204);
+    ;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(197, 211, 226);
+    /* padding-top: 100px; */
+    font-size: 2rem;
+    line-height: 100px;
+    font-family: "josefin Sans", sans-serif;
+
+}
+
+.field {
+    width: 500px;
+
+}
+
+.hr-breaks {
+    border: 2px solid rgba(31, 129, 138, 0.293);
+    width: 4%;
+    margin: 100px auto;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+
+
+}
+
+.img-container {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+
+.section2 img {
+    height: 200px;
+    width: 250px;
+    border-radius: 2em;
+
+}
+
+.section2 p {
+
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    max-width: 40%;
+    line-height: 1.5rem;
+}
+
+.myskills {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.myskills-container {
+
+    display: grid;
+    width: 50%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+
+
+}
+
+
+.cookie-cell {
+    align-content: start;
+}
+
+.myskills-container img {
+    height: 60%;
+    width: 80%;
+
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 1rem;
+    margin-top: 30px;
+    padding-top: 30px;
+
+}
+
+
+
+.my-websites {
+
+    text-align: center;
+    margin-top: 30px;
+    font-family: "josefin Sans", sans-serif;
+
+}
+
+
+.projects-container>div>a>img {
+    width: 250px;
+    height: 250px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+
+}
+
+.contact-container {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.contact {
+    /* display: flex;
+    flex-direction: column; */
+
+    /* align-content: center; */
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    max-width: 40%;
+    line-height: 1.5rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.get-in-touch {
+    padding-bottom: 30px;
+}
+
+.adventure-text {
+    padding-bottom: 30px;
+}
+
+/* .contact-button {
+    background-color: rgb(206, 236, 246);
+   
+    margin-top: 20px;
+    border-radius: 8px;
+    border: none;
+} */
+
+.btn {
+
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: black;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: rgb(206, 236, 246);
+    font-size: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.button:hover {
+    color: white;
+    background-color: rgb(36, 34, 34);
+}
+
+.footer-container {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: rgb(206, 236, 246);
+
+}
+
+.footer-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(69, 157, 163);
+}
+
+.footer-link:hover {
+    color: black;
+}
+
+.footer-container>p {
+    margin-top: 10px;
+    color: white;
+    font-size: medium;
+}
+
+
+
+@media(max-width:800px) {
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        font-size: larger;
+        width: 100vw;
+    }
+
+    .header>img {
+        display: none;
+
+    }
+
+    .myskills-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 90vw;
+
+    }
+
+    .skills-p-1 {
+        padding-bottom: 30px;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .section2 p {
+        width: 90vw;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: medium;
+    }
+
+    .myskills-container img {
+        display: none;
+    }
+
+    .contact {
+        width: 90vw;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: medium;
+    }
+
+}
