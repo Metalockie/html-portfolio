@@ -260,7 +260,7 @@ h2 {
     }
 
     .section2 p {
-        width: 90vw;
+        Max-width: 90%;
         margin-left: 2rem;
         margin-right: 2rem;
         font-size: medium;
