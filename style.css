@@ -149,8 +149,8 @@ h2 {
 
     /* align-content: center; */
     text-align: center;
-    margin-left: 5rem;
-    margin-right: 5rem;
+   /* margin-left: 5rem;
+    margin-right: 5rem; */
     max-width: 40%;
     line-height: 1.5rem;
     padding-top: 30px;
@@ -271,7 +271,7 @@ h2 {
     }
 
     .contact {
-        width: 90vw;
+        Max-width: 90%;
         margin-left: 2rem;
         margin-right: 2rem;
         font-size: medium;
